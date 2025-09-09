@@ -63,6 +63,10 @@ void Initialize(int argc, char* argv[])
     list_entry.set(argv[cc]);
   }
 
+  // indicate that we want to load ParaView-Catalyst
+  node["catalyst_load/implementation"].set_string("paraview");
+  node["catalyst_load/search_paths/paraview"].set_string("D:\\Repositories\\Visualization\\ParaView\\ParaView-build\\bin\\catalyst");
+
   catalyst_status err = catalyst_initialize(conduit_cpp::c_node(&node));
   if (err != catalyst_status_ok)
   {
