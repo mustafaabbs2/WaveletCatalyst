@@ -3,6 +3,7 @@
 **/debug/**
 **/release/
 **/release/**
+build/**
 
 datasets/*
 
