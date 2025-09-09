@@ -1,0 +1,61 @@
+# Ignore all files in debug/ and release/ folders anywhere
+**/debug/
+**/debug/**
+**/release/
+**/release/**
+
+datasets/*
+
+# CMake build artifacts
+*.ipch
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+build.ninja
+*.ninja
+*.tlog
+*.log
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.a
+*.o
+*.mod
+*.pyc
+__pycache__/
+
+# Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.*
+*.user
+*.opensdf
+*.sdf
+*.ipch
+*.db
+*.cache
+*.vs/
+
+# Other build folders
+bin/
+**/bin/
+**/bin/**
+
+# General
+*.swp
+*.tmp
+*.bak
+*.~
